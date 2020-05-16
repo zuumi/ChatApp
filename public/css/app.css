@@ -3795,7 +3795,6 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  width: 100%;
 }
 
 .input-group > .form-control,
@@ -10940,4 +10939,10 @@ footer{
   color: #fff;
   text-align: center;
   bottom: 0; /*下に固定*/
+}
+
+textarea {
+  resize: none;
+  width:100px;
+  height:200px;
 }
