@@ -10933,3 +10933,11 @@ a.text-dark:focus {
   }
 }
 
+footer{
+  width: 100%;
+  padding-top:1000px;
+  background-color: #89c7de;
+  color: #fff;
+  text-align: center;
+  bottom: 0; /*下に固定*/
+}
