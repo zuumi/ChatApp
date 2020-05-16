@@ -15,7 +15,7 @@
         </div>
     </div>
 </div>
-<form method="POST" action="{{ route('add')　}}">
+<form method="POST" action="{{route('add')}}">
     @csrf
     <div class="comment-container row justify-content-center">
         <div class="input-group comment-area">
