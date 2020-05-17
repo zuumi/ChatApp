@@ -7,9 +7,10 @@
             <div class="card">
                 <div class="card-header">Comment</div>
                 <div class="card-body chat-card">
-                  @foreach($comments as $item)
+                    <div id="comment-data"></div>
+                  <!-- @foreach($comments as $item)
                     @include('components.comment',['item'=>$item])
-                  @endforeach
+                  @endforeach -->
                 </div>
             </div>
         </div>
