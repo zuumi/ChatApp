@@ -1,0 +1,19 @@
+version: 1
+update_configs:
+  - package_manager: "javascript"
+    directory: "/"
+    update_schedule: "daily"
+    default_label:
+      - "dependencies"
+      - "dependabot"
+    automerged_updates:
+      - match:
+          dependency_type: "development"
+            - "development"
+          update_type:
+            - "security:patch"
+            # - "semver:patch"
+            # - "semver:minor"
+    commit_message:
+      prefix: "merge autodependabot"
+  
